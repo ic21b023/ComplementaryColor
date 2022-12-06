@@ -13,7 +13,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ComplementaryColorIT {
-
     @Test
     public void testGet() throws IOException, InterruptedException, JSONException {
         HttpClient client = HttpClient.newBuilder().build();
